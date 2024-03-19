@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DICE GAME</title>
+    <link rel="stylesheet" href="dice.css">
+</head>
+
+<body>
+    <main class="main">
+
+        <h1 id="game-name"><span>DICE <span>GAME</span></h1>
+
+        <section id="players">
+            <section class="player1">
+                <div class="plus-number"><span class="mood1">😎</span>
+                    <h4 class="number-generated1">Waiting...</h4>
+                </div>
+                <div class="player-info">
+                    <h1 id="player-name1">PLAYER 1</h1>
+                    <h2>SCORE: <span id="score-player1">0</span></h2>
+                    <button id="button-player1" aria-keyshortcuts="1">PLAY</button>
+                </div>
+            </section>
+            <section class="player2">
+                <div class="plus-number"><span class="mood2">😎</span>
+                    <h4 class="number-generated2">Waiting...</h4>
+                </div>
+                <div class="player-info">
+                    <h1 id="player-name2">PLAYER 2</h1>
+                    <h2>SCORE: <span id="score-player2">0</span></h2>
+                    <button id="button-player2" aria-keyshortcuts="2"> PLAY</button>
+                </div>
+            </section>
+        </section>
+        <div class="scene">
+            <div class="cube  cube-animate">
+                <div class="cube__face cube__face--front-1-">
+                    <div id="point1"></div>
+                </div>
+                <div class="cube__face cube__face--back-2-">
+                    <div id="point2"></div>
+                    <div id="point2"></div>
+
+                </div>
+                <div class="cube__face cube__face--right-3-">
+                    <div id="point3" class="right"></div>
+                    <div id="point3" class="center"></div>
+                    <div id="point3" class="left"></div>
+                </div>
+                <div class="cube__face cube__face--left-4-">
+                    <div id="point4"></div>
+                    <div id="point4"></div>
+                    <div id="point4"></div>
+                    <div id="point4"></div>
+                </div>
+                <div class="cube__face cube__face--top-5-">
+                    <div class="line-one">
+                        <div id="point5"></div>
+                        <div id="point5"></div>
+                    </div>
+                    <div id="point5"></div>
+                    <div class="line-end">
+                        <div id="point5" class="middle-point"></div>
+                        <div id="point5"></div>
+                    </div>
+                </div>
+                <div class="cube__face cube__face--bottom-6-">
+                    <div id="point6"></div>
+                    <div id="point6"></div>
+                    <div id="point6"></div>
+                    <div id="point6"></div>
+                    <div id="point6"></div>
+                    <div id="point6"></div>
+                </div>
+            </div>
+
+    </main>
+    <h1 class="winner">"Throw the dice and see what the future holds 🎲"</h1>
+    <script src="index.js"></script>
+</body>
+
+</html>
